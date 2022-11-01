@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(44, 43, 43);
+}
+input{
+    width: 100px;
+}
+.img{
+    width: 55vw;
+    margin: 30px auto;
+    min-width: 330px;
+}
+img{
+    display: block;
+    width: 100%;
+}
+:root{
+    --base: #125D98;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.h1{
+    color: var(--base);
+}
